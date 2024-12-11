@@ -115,6 +115,14 @@ h2 {
     border: 2px solid #ddd;
     display: none;
     text-align: center;
+    width: 300px;
+    height: 200px;
+}
+
+#dialog p {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-size: 28px;
 }
 
 #animation-canvas {
@@ -125,6 +133,31 @@ h2 {
     height: 100%;
     pointer-events: none;
     display: none;
+}
+
+
+#dialog button {
+    margin: 0 10px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer;
+    border: none;
+    background-color: #007bff; 
+    color: white;
+    border-radius: 5px; 
+    width: 100px;
+    height: 50px;
+    transition: transform 0.2s, background-color 0.2s;
+
+}
+
+
+#dialog button:hover {
+    background-color: #ffffff;
+    border: solid 3px #007bff;
+    font-size: 19px;
+    font-weight: bold;
+    color: #007bff;
 }
 
 

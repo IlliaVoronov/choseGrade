@@ -129,7 +129,7 @@ function showRain() {
     }));
 
     let rainAnimation;
-    let opacity = 1; // Initial opacity
+    let opacity = 1;
 
 
     const audio = new Audio('music/ashes-of-hiroshima-272353.mp3');
