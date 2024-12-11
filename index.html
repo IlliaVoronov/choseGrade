@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Selector</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Courgette&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Yantramanav:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Teacher's Mark Selector</h1>
+        
+        <h2>What mark do you want to give me?</h2>
+
+        <div class="mark-fields">
+            <div class="mark-field img60" data-mark="60"><p>60</p></div>
+            <div class="mark-field img70" data-mark="70"><p>70</p></div>
+            <div class="mark-field img80" data-mark="80"><p>80</p></div>
+            <div class="mark-field img90" data-mark="90"><p>90</p></div>
+            <div class="mark-field img100" data-mark="100"><p>100</p></div>
+        </div>
+        <div class="picture-container"></div>
+    </div>
+    <div class="diagram-container">
+        <h2>Final State Machine diagram describing the functionality of this website.</h2>
+        <img src="images/diagram final state firework.png" alt="final state diagram" class="diagram-img">
+    </div>
+    <div id="dialog">
+        <p>Are you sure?</p>
+        <button id="yes-btn">Yes</button>
+        <button id="no-btn">No</button>
+    </div>
+    <canvas id="animation-canvas"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>

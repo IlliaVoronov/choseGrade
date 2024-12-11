@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+}
+h1 {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+}
+h2 {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    padding-top: 30px;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.picture-container {
+    margin-bottom: 20px;
+}
+
+#student-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+}
+
+.mark-fields {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    width: 100%;
+    box-sizing: border-box;
+
+    padding: 0 30px;
+}
+
+.mark-field {
+
+    display: flex;
+    width: 180px;
+    height: 200px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    max-width: calc(33.33% - 20px); 
+    font-size: 60px;
+
+    border-radius: 4px;
+    margin: 15px 0;
+    background: linear-gradient(109.6deg, rgb(245, 239, 249) 30.1%, rgb(207, 211, 236) 100.2%);
+    color: #38173a;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    position: relative; 
+    overflow: hidden; 
+}
+
+.mark-field:hover {
+    transform: scale(1.1);
+    color: #d5d3d3;
+}
+
+.mark-field:hover p{
+    transform: translateY(70px);
+    
+}
+
+.img60:hover {
+    background-image: url('images/mark60.png');
+}
+.img70:hover {
+    background-image: url('images/mark70.png');
+}
+.img80:hover {
+    background-image: url('images/mark80.png');
+}
+.img90:hover {
+    background-image: url('images/mark90.png');
+}
+.img100:hover {
+    background-image: url('images/mark100.png');
+}
+
+.diagram-img {
+    width: 80%;
+    max-width: 100%;
+    height: auto;
+}
+
+#dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #ddd;
+    display: none;
+    text-align: center;
+}
+
+#animation-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    display: none;
+}
+
+
+
